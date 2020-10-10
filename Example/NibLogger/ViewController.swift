@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import NibLogger
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        NibLogger.DEBUG("Debug Log")
+        NibLogger.INFO("Info Log")
+        NibLogger.WARN("Warn Log")
+        NibLogger.ERROR("Error Log")
+        NibLogger.TAG(tag: "Some Tag", "Tag Log")
     }
 
     override func didReceiveMemoryWarning() {

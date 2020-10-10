@@ -1,0 +1,16 @@
+PODS:
+  - NibLogger (1.0.0)
+
+DEPENDENCIES:
+  - NibLogger (from `../`)
+
+EXTERNAL SOURCES:
+  NibLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NibLogger: 73a85c45273f65645e670c9a17d26d1d4509c697
+
+PODFILE CHECKSUM: 6f4007f3a2d1f9164c2817ba8279d7b965935bc2
+
+COCOAPODS: 1.8.4

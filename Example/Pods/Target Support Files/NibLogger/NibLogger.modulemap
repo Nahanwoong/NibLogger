@@ -1,0 +1,6 @@
+framework module NibLogger {
+  umbrella header "NibLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
