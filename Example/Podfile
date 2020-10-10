@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NibLogger_Example' do
+  pod 'NibLogger', :path => '../'
+
+  target 'NibLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
