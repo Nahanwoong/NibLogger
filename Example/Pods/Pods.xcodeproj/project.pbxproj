@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20BE4B2CDF31248E09705279AE16DD28 /* NibLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2540A861E44688BC70ADBC76F4A77E6 /* NibLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354A30F14FFC4021C30D8B94C2A07351 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		47C8F329D75BD4E16A94047C3F32BB01 /* Pods-NibLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389176B08378878800F7778BF2BB3C5A /* Pods-NibLogger_Example-dummy.m */; };
-		644D867B8CD4061A2ED16DABF5510A88 /* NibLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04590075B30C7A0C18EE6B60B8AD57D /* NibLogger.swift */; };
-		A564FF1F0BFA73324F766EB27C2102FB /* NibLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88467CE7E300979FFD7E7CF875B881 /* NibLogger-dummy.m */; };
-		B1B778022D7D4C41AC6FFB74F7AC3393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F580530CD556F8B3C063A30D4CE749DC /* Pods-NibLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C31989F37CD80C6F9AA8F174F94A43AF /* Pods-NibLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BE4B2CDF31248E09705279AE16DD28 /* NibLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18787C3B88367A12787CA299BF0A6046 /* NibLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644D867B8CD4061A2ED16DABF5510A88 /* NibLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2B34CBC9FB7EFC439841DDB42394 /* NibLogger.swift */; };
+		67640967B6D144D32F19B973D907281C /* Pods-NibLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389176B08378878800F7778BF2BB3C5A /* Pods-NibLogger_Example-dummy.m */; };
+		73743D8849829BCDD3534C6E2673A608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92C0DA931C4119C846C2979F738DBC7B /* Pods-NibLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C31989F37CD80C6F9AA8F174F94A43AF /* Pods-NibLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FAE01583960020A03BA98D6AA6644B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A564FF1F0BFA73324F766EB27C2102FB /* NibLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD33D332A862070106B67390A39AB92 /* NibLogger-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BF3173A6DD64AC72D0931F4F4523A398 /* PBXContainerItemProxy */ = {
+		B48488A30A6CD2C28BFD5EF14349ABB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,37 +27,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038F3DFE733C4945A97A45A656F6BF77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		136EEC7B7578699875204CB4B9D0742D /* NibLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NibLogger.modulemap; sourceTree = "<group>"; };
+		024F8FE59F6650AB07E553AFAF74104F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		13A54B2D490D1E49824FA5998E3AA122 /* Pods-NibLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NibLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1438CC5A1D797CB33D26C945B75A2B6D /* NibLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NibLogger.release.xcconfig; sourceTree = "<group>"; };
+		18787C3B88367A12787CA299BF0A6046 /* NibLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NibLogger-umbrella.h"; sourceTree = "<group>"; };
 		22B4EB317013EAA8F3C763EC056FFA69 /* Pods-NibLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NibLogger_Example-Info.plist"; sourceTree = "<group>"; };
-		24BB445EC520623E8D0F4E9DB4FD8CB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35277615E3E970C43613A1CB41F45FFB /* NibLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NibLogger-prefix.pch"; sourceTree = "<group>"; };
 		389176B08378878800F7778BF2BB3C5A /* Pods-NibLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NibLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		578279A2D7544A96C1392B5F828E6A1B /* NibLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NibLogger.modulemap; sourceTree = "<group>"; };
+		72040510F4B9059FF2A915E59EA62D48 /* NibLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NibLogger-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BD33D332A862070106B67390A39AB92 /* NibLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NibLogger-dummy.m"; sourceTree = "<group>"; };
+		872B2B34CBC9FB7EFC439841DDB42394 /* NibLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLogger.swift; path = NibLogger/Classes/NibLogger.swift; sourceTree = "<group>"; };
+		93EC88592CD8CB110D64F7B697AB3439 /* NibLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NibLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944BE759961E85AB6E78E1F04038C5E8 /* Pods-NibLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A050A2EBD705567878C0F72B35641879 /* Pods-NibLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NibLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B712B4C91F36BB4EDD26B5C6375EF072 /* NibLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NibLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD88467CE7E300979FFD7E7CF875B881 /* NibLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NibLogger-dummy.m"; sourceTree = "<group>"; };
-		C2540A861E44688BC70ADBC76F4A77E6 /* NibLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NibLogger-umbrella.h"; sourceTree = "<group>"; };
+		BD0A99DD46566D921C1232AF95877854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C1A2962DE414B33BE00BCF772ADD2E38 /* NibLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NibLogger-prefix.pch"; sourceTree = "<group>"; };
 		C31989F37CD80C6F9AA8F174F94A43AF /* Pods-NibLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NibLogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		C843160A5C5945F5C1CD3CF22071414A /* NibLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NibLogger-Info.plist"; sourceTree = "<group>"; };
 		CC381B9240A9A3C98486C996EBCC0C45 /* NibLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NibLogger.framework; path = NibLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7D86B8DAA3FAA4B316CD15DF1620A /* Pods_NibLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NibLogger_Example.framework; path = "Pods-NibLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D32EAE7310CA27D36BDE0EDF67F8A206 /* NibLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NibLogger.xcconfig; sourceTree = "<group>"; };
 		D43D27E56D982591428BC32045441157 /* Pods-NibLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NibLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DD98BDCA491715CC3FFDC61ADCC2FB47 /* Pods-NibLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NibLogger_Example.modulemap"; sourceTree = "<group>"; };
-		E04590075B30C7A0C18EE6B60B8AD57D /* NibLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLogger.swift; path = NibLogger/Classes/NibLogger.swift; sourceTree = "<group>"; };
+		F8BFEE3067ACE9DB5ED5862E984E1022 /* NibLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NibLogger.debug.xcconfig; sourceTree = "<group>"; };
 		FACDCB0008695D44F80839A47E9BA351 /* Pods-NibLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42F63525A31FBA21D7BEBF8FDF615BA7 /* Frameworks */ = {
+		5F9EE591EAF2BA67DA015F48702D9BCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354A30F14FFC4021C30D8B94C2A07351 /* Foundation.framework in Frameworks */,
+				73743D8849829BCDD3534C6E2673A608 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B778022D7D4C41AC6FFB74F7AC3393 /* Foundation.framework in Frameworks */,
+				A0FAE01583960020A03BA98D6AA6644B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,55 +90,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B4B064778B96DCCDED6778EE2CB2E67 /* NibLogger */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E04590075B30C7A0C18EE6B60B8AD57D /* NibLogger.swift */,
-				7C2434711D6324C6BB4B1A104CD3D40F /* Pod */,
-				C4B499427AC160838A3E5A8AADBE46E3 /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = NibLogger;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C2434711D6324C6BB4B1A104CD3D40F /* Pod */ = {
+		833C81FBD9C6DE773C34A5CFCA2E363F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				24BB445EC520623E8D0F4E9DB4FD8CB3 /* LICENSE */,
-				B712B4C91F36BB4EDD26B5C6375EF072 /* NibLogger.podspec */,
-				038F3DFE733C4945A97A45A656F6BF77 /* README.md */,
+				578279A2D7544A96C1392B5F828E6A1B /* NibLogger.modulemap */,
+				7BD33D332A862070106B67390A39AB92 /* NibLogger-dummy.m */,
+				72040510F4B9059FF2A915E59EA62D48 /* NibLogger-Info.plist */,
+				C1A2962DE414B33BE00BCF772ADD2E38 /* NibLogger-prefix.pch */,
+				18787C3B88367A12787CA299BF0A6046 /* NibLogger-umbrella.h */,
+				F8BFEE3067ACE9DB5ED5862E984E1022 /* NibLogger.debug.xcconfig */,
+				1438CC5A1D797CB33D26C945B75A2B6D /* NibLogger.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NibLogger";
 			sourceTree = "<group>";
 		};
 		A503BB47D789AF969F1D6872A993BFB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4B064778B96DCCDED6778EE2CB2E67 /* NibLogger */,
+				F5ECCFF5B716341FB5AAC4066096E04B /* NibLogger */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C4B499427AC160838A3E5A8AADBE46E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				136EEC7B7578699875204CB4B9D0742D /* NibLogger.modulemap */,
-				D32EAE7310CA27D36BDE0EDF67F8A206 /* NibLogger.xcconfig */,
-				BD88467CE7E300979FFD7E7CF875B881 /* NibLogger-dummy.m */,
-				C843160A5C5945F5C1CD3CF22071414A /* NibLogger-Info.plist */,
-				35277615E3E970C43613A1CB41F45FFB /* NibLogger-prefix.pch */,
-				C2540A861E44688BC70ADBC76F4A77E6 /* NibLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NibLogger";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -154,9 +135,30 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D82AA719A2EABB5454D88E5C2591CB55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD0A99DD46566D921C1232AF95877854 /* LICENSE */,
+				93EC88592CD8CB110D64F7B697AB3439 /* NibLogger.podspec */,
+				024F8FE59F6650AB07E553AFAF74104F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F5ECCFF5B716341FB5AAC4066096E04B /* NibLogger */ = {
+			isa = PBXGroup;
+			children = (
+				872B2B34CBC9FB7EFC439841DDB42394 /* NibLogger.swift */,
+				D82AA719A2EABB5454D88E5C2591CB55 /* Pod */,
+				833C81FBD9C6DE773C34A5CFCA2E363F /* Support Files */,
+			);
+			name = NibLogger;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FDED29754A0CA98D6A344A2F0E0919C4 /* Pods-NibLogger_Example */ = {
@@ -179,11 +181,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0626E5D6424A14CA51D38636D5C80251 /* Headers */ = {
+		A8E76FA278034C0E714EEDFE9FE69797 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F580530CD556F8B3C063A30D4CE749DC /* Pods-NibLogger_Example-umbrella.h in Headers */,
+				92C0DA931C4119C846C2979F738DBC7B /* Pods-NibLogger_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,17 +220,17 @@
 		};
 		AC0299E44546DD793DA9E878D2304338 /* Pods-NibLogger_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E089D4E8C9EB013523E8C406A4E56A2 /* Build configuration list for PBXNativeTarget "Pods-NibLogger_Example" */;
+			buildConfigurationList = B3AFA6E633384740FD176669E67024A0 /* Build configuration list for PBXNativeTarget "Pods-NibLogger_Example" */;
 			buildPhases = (
-				0626E5D6424A14CA51D38636D5C80251 /* Headers */,
-				424B60E64C812E1A4A7B6F8DA6000162 /* Sources */,
-				42F63525A31FBA21D7BEBF8FDF615BA7 /* Frameworks */,
-				6CA9897345188C4057C36CB53F783BF0 /* Resources */,
+				A8E76FA278034C0E714EEDFE9FE69797 /* Headers */,
+				2D22086E9A0D97DC1E53116043428632 /* Sources */,
+				5F9EE591EAF2BA67DA015F48702D9BCA /* Frameworks */,
+				6010148A3CB2D47B296A46504C134400 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB741C707B41D209D30B200C2665BA6D /* PBXTargetDependency */,
+				048ABF9B465E27EC2785B2A91CF92C0D /* PBXTargetDependency */,
 			);
 			name = "Pods-NibLogger_Example";
 			productName = "Pods-NibLogger_Example";
@@ -264,7 +266,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6CA9897345188C4057C36CB53F783BF0 /* Resources */ = {
+		6010148A3CB2D47B296A46504C134400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,11 +283,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		424B60E64C812E1A4A7B6F8DA6000162 /* Sources */ = {
+		2D22086E9A0D97DC1E53116043428632 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C8F329D75BD4E16A94047C3F32BB01 /* Pods-NibLogger_Example-dummy.m in Sources */,
+				67640967B6D144D32F19B973D907281C /* Pods-NibLogger_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,84 +303,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB741C707B41D209D30B200C2665BA6D /* PBXTargetDependency */ = {
+		048ABF9B465E27EC2785B2A91CF92C0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NibLogger;
 			target = 024705D29BEAA4797F14D4EAF39E774F /* NibLogger */;
-			targetProxy = BF3173A6DD64AC72D0931F4F4523A398 /* PBXContainerItemProxy */;
+			targetProxy = B48488A30A6CD2C28BFD5EF14349ABB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0786F805E6F91DDC022EF93DA17DCBD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D32EAE7310CA27D36BDE0EDF67F8A206 /* NibLogger.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NibLogger/NibLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NibLogger/NibLogger-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NibLogger/NibLogger.modulemap";
-				PRODUCT_MODULE_NAME = NibLogger;
-				PRODUCT_NAME = NibLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3584316D4680FBDA1DE63ADE47BBBDF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FACDCB0008695D44F80839A47E9BA351 /* Pods-NibLogger_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -401,66 +339,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -486,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -499,11 +378,11 @@
 			};
 			name = Debug;
 		};
-		D549B8DDB4D7E1C2EC9C8353849958AF /* Debug */ = {
+		31D818387A896B0191C03961F33B5EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D32EAE7310CA27D36BDE0EDF67F8A206 /* NibLogger.xcconfig */;
+			baseConfigurationReference = F8BFEE3067ACE9DB5ED5862E984E1022 /* NibLogger.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -515,7 +394,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NibLogger/NibLogger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NibLogger/NibLogger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NibLogger/NibLogger.modulemap";
 				PRODUCT_MODULE_NAME = NibLogger;
@@ -530,12 +409,11 @@
 			};
 			name = Debug;
 		};
-		E2B515F3EEBED186897415AAA890CEE6 /* Release */ = {
+		36A9BDB32A187CAD3A783DA226CF56B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 944BE759961E85AB6E78E1F04038C5E8 /* Pods-NibLogger_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -546,7 +424,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example.modulemap";
@@ -564,14 +442,140 @@
 			};
 			name = Release;
 		};
+		3D1AB716C7593ED7644A93E309F1DAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACDCB0008695D44F80839A47E9BA351 /* Pods-NibLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NibLogger_Example/Pods-NibLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37D2BAAE11EB719AFB0DC73F9A839FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1438CC5A1D797CB33D26C945B75A2B6D /* NibLogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NibLogger/NibLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NibLogger/NibLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NibLogger/NibLogger.modulemap";
+				PRODUCT_MODULE_NAME = NibLogger;
+				PRODUCT_NAME = NibLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		07F28CD6D0918DF7D0E5199D54F8B870 /* Build configuration list for PBXNativeTarget "NibLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D549B8DDB4D7E1C2EC9C8353849958AF /* Debug */,
-				0786F805E6F91DDC022EF93DA17DCBD7 /* Release */,
+				31D818387A896B0191C03961F33B5EF6 /* Debug */,
+				B37D2BAAE11EB719AFB0DC73F9A839FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -579,17 +583,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E089D4E8C9EB013523E8C406A4E56A2 /* Build configuration list for PBXNativeTarget "Pods-NibLogger_Example" */ = {
+		B3AFA6E633384740FD176669E67024A0 /* Build configuration list for PBXNativeTarget "Pods-NibLogger_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3584316D4680FBDA1DE63ADE47BBBDF3 /* Debug */,
-				E2B515F3EEBED186897415AAA890CEE6 /* Release */,
+				3D1AB716C7593ED7644A93E309F1DAC6 /* Debug */,
+				36A9BDB32A187CAD3A783DA226CF56B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

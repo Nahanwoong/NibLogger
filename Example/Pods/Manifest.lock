@@ -1,5 +1,5 @@
 PODS:
-  - NibLogger (1.0.0)
+  - NibLogger (1.1.0)
 
 DEPENDENCIES:
   - NibLogger (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NibLogger: 73a85c45273f65645e670c9a17d26d1d4509c697
+  NibLogger: e68b2bee4ee309c73145d4ddff3438ab9521444c
 
 PODFILE CHECKSUM: 6f4007f3a2d1f9164c2817ba8279d7b965935bc2
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0

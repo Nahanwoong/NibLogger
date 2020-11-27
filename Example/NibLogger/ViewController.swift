@@ -13,6 +13,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NibLogger.shared.isDetailLog = true
+        NibLogger.DEBUG("Debug Log")
+        NibLogger.INFO("Info Log")
+        NibLogger.WARN("Warn Log")
+        NibLogger.ERROR("Error Log")
+        NibLogger.TAG(tag: "Some Tag", "Tag Log")
+        
+        NibLogger.shared.isDetailLog = false
         NibLogger.DEBUG("Debug Log")
         NibLogger.INFO("Info Log")
         NibLogger.WARN("Warn Log")

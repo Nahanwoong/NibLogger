@@ -1,9 +1,9 @@
 {
   "name": "NibLogger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "summary": "This is NibLogger.",
   "description": "This is NibLogger. Logging",
-  "homepage": "https://github.com/Nahanwoong/NibLogger",
+  "homepage": "https://github.com/nibdevn/NibLogger",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Nahanwoong": "nibdevn@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Nahanwoong/NibLogger.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/nibdevn/NibLogger.git",
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "swift_versions": "4.2",
   "source_files": "NibLogger/Classes/**/*",
